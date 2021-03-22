@@ -1,0 +1,151 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "montserrat",sans-serif;
+}
+
+body{
+  text-align: center;
+  margin: 0 auto;
+}
+.contact-section{
+  background: white;
+  padding: 150px 0;
+  text-align: center;
+}
+
+.inner-width{
+  max-width: 700px;
+  margin: auto;
+  padding: 0 10px;
+}
+
+/*mise en forme entête */
+header{
+  height:100px;
+  background-color: rgba(0,0,0,0.4);
+  width: 100%;
+  z-index: 12;
+  position: fixed;
+}
+.headerEtLiens{
+  width: 30%;
+  float: left;
+  line-height: 100px;
+}
+
+.headerEtLiens a {
+  text-decoration: none;
+  font-size: 30px;
+  font-family: "montserrat",sans-serif;
+  color: #fff;
+  letter-spacing: 5px;
+}
+
+nav{
+  float: right;
+  line-height: 100px;
+}
+
+nav a {
+  text-decoration: none;
+  font-family: "montserrat",sans-serif;
+  letter-spacing: 4px;
+  font-size: 20px;
+  margin: 0 10px;
+  color: #fff;
+  transition: all ease 0.5s;
+}
+nav a:hover{
+  background-color: #211b4385;
+}
+
+
+/*Mise en forme corps */
+.contact-section h1{
+  font-size: 20px;
+  color: #888;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: 400;
+}
+.nom, .prenom,.email,.message{
+  background: none;
+  border:none;
+  outline: none;
+  border-bottom: 1px solid;
+  color: #888;
+  padding: 10px 4px;
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+
+.nom{
+  float: left;
+  width: 270px;
+}
+
+.email{
+  float: left;
+  width: 270px;
+}
+
+.message{
+  min-width: 100%;
+  max-width: 100%;
+}
+
+/*Mise en forme pour boxer les éléments*/
+.boxed {
+  border: 5px solid #4682B4;
+  width: 100%;
+  padding: 20px;
+}
+
+
+/*Mise en forme d'un bouton */
+input[type=submit]{
+  background: none;
+  color: #4682B4;
+  border: 1px solid #4682B4;
+  padding: 12px 40px;
+  border-radius: 8px;
+  text-transform: uppercase;
+  font-size: 14px;
+  transition: 0.4s linear;
+  cursor: pointer;
+}
+
+.contact-section input[type=reset]:hover{
+  background: #4682B4;
+  color: white;
+}
+
+
+/*Mse en forme bouton */
+input[type=reset]{
+  background: none;
+  color: #4682B4;
+  border: 1px solid #4682B4;
+  padding: 12px 40px;
+  border-radius: 8px;
+  text-transform: uppercase;
+  font-size: 14px;
+  transition: 0.4s linear;
+  cursor: pointer;
+}
+
+.contact-section input[type=submit]:hover{
+  background: #4682B4;
+  color: white;
+}
+
+
+/*Affichage */
+@media screen and (max-width:400px){
+  .nom, .prenom,.email{
+    width: 100%;
+  }
+}

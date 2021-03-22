@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title> E-STORY-MAP </title>
+  <link rel="icon" href="../image/ex1.png" />
+  <link rel="stylesheet" href="../style/read.css">
+</head>
+<body>
+    <header>
+      <div class="headerEtLiens">
+        <a href="../index.php">E-Story-Map</a>
+            </div>
+        <nav>
+          <a href="./WhoWeAre.html">Qui nous sommes</a>
+          <a href="./read.html">Aide</a>
+          <a href="./registre.php">S'inscrire</a>
+          <a href="./mail.php">Nous contacter</a>
+        </nav>
+      </div>
+      </header>
+     <div class="banner">
+       <h2>E-Story-Map</h2>
+     </div>
+    <section class="esmap">
+
+
+        <section class='utilisation'>
+          <div class="intro">
+            <h3> Qu'est ce que E-Story-Map ? </h3>
+            <p> <b>E-Story-Map</b> est une application d'analyse fonctionnelle qui consiste à tester la cohérence des différents axes d'analyses(User-Stories, BPMN, MFC).</p>
+          </div>
+
+          <div class="using">
+            <h3> Comment s'utilise t-elle ? </h3>
+            <p class="using"> Nous avons tout mis en place pour une utilisation la plus simple possible.
+              L'analyse de vos différents axes d'analyses se fait en 6 étapes:
+              <ul class="etapes">
+                <li>S'authentifier</li><br>
+                <li>Créer le projet</li><br>
+                <li>Insérer la (les) User-Story(es)</li><br>
+                <li>Importer des axes</li><br>
+                <li>Générer du résultat</li><br>
+                <li>Délivrer le résultat </li><br>
+              </ul>
+            </p>
+          </div>
+
+            <div class="authen">
+              <h3 class="authen"> Comment s'authentifier ? </h3>
+              <p class="authen">
+                Pour s'authentifier, vous devez avoir vos identifiants universitaires (adresse et mot de passe) donc être étudiant à l'<b>université de Lille</b>.<br>
+                Entrez vos identifiants universitaires puis cliquez sur le bouton <b style="color:#60bfc2;" > "S'authentifier" </b> pour vous authentifier.
+              </p>
+            </div>
+
+            <div class="creation">
+              <h3 class="creation"> Comment créer votre projet ? </h3>
+              <p class="creation"> Une fois l'authentification faite, vous allez par la suite <b>créer un projet</b> en lui donnant un <b>nom</b>.
+                Pour cela, dans le champ <b>Nommer le projet</b>, entrez le nom de votre projet puis cliquez sur le bouton <b style="color:#60bfc2;">"Créer"</b> pour finaliser la création. <br>
+              </p>
+            </div>
+
+            <div class="ustories">
+              <h3 class="ustories"> Comment la (les) User-Story(es) ? </h3>
+              <p class="ustories">Après la création du projet, vous devez par la suite <b>insérer votre User-Story</b>. Si vous avez plusieurs US à insérer, cliquez sur le bouton <b style="color:#60bfc2;">"Ajouter"</b> ou <b style="color:#60bfc2;">"+"</b>  pour ajouter tous vos US et un fois terminer, cliquez sur <b style="color:#60bfc2;">"Enregistrer"</b> pour valider vos US.</p>
+            </div>
+
+            <div class="import">
+              <h3 class="import"> Comment importer les axes ? </h3>
+              <p class="import">  Ensuite, vous devez importer vos axes (BPMN et MFC) en format <b>xml</b>, dans les champs correspondants en parcourant directement vos fichiers puis cliquez sur <b style="color:#60bfc2;"> "Lancer l'analyse" </b> pour lancer le traitement de votre analyse.<br></p>
+            </div>
+
+            <div class="generer">
+              <h3 class="generer"> Comment générer le résultat de l'analyse ? </h3>
+              <p class="generer"> En lançant l'analyse, vous allez avoir le résultat de votre analyse.
+                Dans le résultat, vous allez avoir le taux de cohérence de vos axes et de votre(vos) user-sorty(es) mais aussi un rapport dans lequel vous aurez des remarques sur votre analyse.
+                Ce résultat est donné en fonction de la cohérence entre:
+                <ul>
+                  <li> 1- Les flux du BPMN et du MFC </li>
+                  <li> 2- Les taches du BPMN et les activités du MFC </li>
+                  <li> 3- Les acteurs dans le(les) US et les acteurs du MFC </li>
+                  <li> 4- Les objectifs des US et les taches du BPMN </li>
+                  <li> 5- Les objectifs des US et les activités du MFC </li>
+                </ul>
+                Le taux est la moyenne entre la moyenne des taux 1 et 2 et la moyenne des taux 3,4 et 5. <br>
+            </p>
+            </div>
+
+            <div class="delivrer">
+              <h3 class="delivrer"> Comment délivrer le résultat de l'analyse ? </h3>
+              <p class="delivrer"> Enfin, pour vous permettre d'avoir votre résultat avec vous ou de garder une trace, vous avez la possibilité soit de <b style="color:#60bfc2;">Télécharger</b> votre résultat ou de <b style="color:#60bfc2;">Envoyer par mail</b> sur votre adresse étudiant.</p>
+            </div>
+
+         </section>
+
+        <section class="plus">
+          <h3>Définitions</h3>
+            <div  class="us">
+              <h4 class="us" > Qu'est ce qu'une User-Story ? </h4>
+              <p class="us">
+                Une User-Story ou encore l'Histoire-Utilisateur est l'énoncé de ce que cherche à faire un acteur et dans quel but.
+                Il faut voir l'histoire-utilisateur comme un besoin, concrétisant véritablement un objectif tactique, tel qu'il a été défini par l'organisation.
+                Une user-story se formalise de la façon suivante:<br>
+                <ul>
+                  <b>En tant que</b> acteur,<br>
+                  <b>Je veux </b> une certaine fonctionnelle , <br>
+                  <b>de  sorte que</b> objectif à atteindre décrivant la plus-value, besoin réel.<br>
+                  <b>Je suis satisfait si: </b><br>
+                  <ul>
+                    <li> liste des conditions d'acceptation. </li>
+                  </ul>
+                </ul>
+              </p>
+            </div>
+
+            <div class="bpmn">
+              <h4 class="bpmn"> Qu'est ce qu'un BPMN ? </h4>
+              <img class="bp" src="image/bpmn.png" alt="" />
+              <p class="bpmn">
+                Un BPMN (Business Process Model and Notation) est une norme de notation pour la modélisation de  processus-métier.
+                C'est une méthode de modélisation de processus pour décrire les chaînes de valeur et les activités métier d'une organisation sous forme d'une représentation graphique.<br>
+                Le BPMN permet de représenter les procédures d'entreprise internes.
+              </p>
+            </div>
+
+            <div class = "mfc">
+              <h4 class="mfc"> Qu'est ce qu'un MFC ? </h4>
+              <img class="mfc" src="image/mcf.png" alt="" />
+              <p class="mfc">
+                Un MFC ou encore  un Modèle de Flux Conceptuels est le complément du modèle de contexte  par la description des activités du domaine, recevant et générant les flux externes.<br>
+                Le MFC détaille les activités en domaine d’étude.<br>
+                Ce modèle représente les flux internes au domaine, contrairement au modèle de contexte, qui fait aussi partie des diagrammes de flux, mais qui ne représente que les flux extérieurs au domaine.<br>
+                Il permet aussi de déterminer les fonctionnalités de notre système d’information.<br>
+                Le modèle doit avant tout permettre de répondre à la question : <b style="color:#f63f0d;"> « Que fait le système ? »</b>.<br>
+
+              </p>
+            </div>
+
+            <div class="mc">
+              <h4 class="mc"> Qu'est ce qu'un modèle de contexte ? </h4>
+              <p class="mc">
+              Le modèle de contexte est une macro vue d’architecte considérant les principaux flux d’information.<br>
+              Le modèle de contexte permet de fixer les limites du système, définir sa finalité opératoire, au travers   de ses entrants et sortants.<br>
+              </p>
+            </div>
+
+            <div class="fi">
+              <h4 class="fi"> Qu'est ce qu'un flux d’information ? </h4>
+              <p class="fi">
+                Un Flux d’information ou un flux de message est la transmission en une seule fois, d'une information structurée (complexe et cohérente), entre un émetteur (qui en dispose) et un récepteur (qui en a besoin).<br>
+                Le message est l'information structurée que porte le flux.<br>
+              </p>
+            </div>
+
+      </section>
+   </section>
+
+</body>
+</html>

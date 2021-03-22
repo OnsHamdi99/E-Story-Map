@@ -1,0 +1,121 @@
+*{
+  margin:0;
+  padding:0;
+  font-family: "montserrat",sans-serif;
+}
+
+.content-section {
+  text-align: center;
+}
+
+
+
+body{
+  text-align: justify;
+  margin: 0 auto;
+  font-family: "montserrat",sans-serif;
+  line-height: 30px;
+}
+
+header{
+  height:100px;
+  background-color: rgba(0,0,0,0.4);
+  width: 100%;
+  z-index: 12;
+  position: fixed;
+}
+/* Début entête */
+.headerEtLiens{
+  width: 30%;
+  float: left;
+  line-height: 100px;
+}
+
+.headerEtLiens a {
+  text-decoration: none;
+  font-size: 30px;
+  font-family: "montserrat",sans-serif;
+  color: #fff;
+  letter-spacing: 5px;
+}
+
+nav{
+  float: right;
+  line-height: 100px;
+}
+
+nav a {
+  text-decoration: none;
+  font-family: "montserrat",sans-serif;
+  letter-spacing: 4px;
+  font-size: 20px;
+  margin: 0 10px;
+  color: #fff;
+  transition: all ease 0.5s;
+}
+nav a:hover{
+  background-color: #211b4385;
+}
+
+/* Fin entête*/
+
+/* Début corps*/
+.content-section{
+  width: 100%;
+  position: relative;
+  top: 130px;
+  background: white;
+  height: 1500px;
+}
+
+/*Style d'un bouton*/
+
+input[type=file], button[type=submit], button[type=button]{
+  background: none;
+  color: #4682B4;
+  border: 1px solid #4682B4;
+  padding: 12px 40px;
+  border-radius: 8px;
+  text-transform: uppercase;
+  font-size: 14px;
+  transition: 0.4s linear;
+  cursor: pointer;
+  margin-bottom: 2em;
+}
+
+input[type=file], button[type=submit], button[type=button]:hover{
+  background: #4682B4;
+  color: white;
+}
+
+.nomProjet{
+  background: none;
+  border:none;
+  outline: none;
+  border-bottom: 1px solid;
+  color: #4682B4;
+  padding: 10px 4px;
+  font-size: 14px;
+  margin-bottom: 2em;
+}
+
+
+/*Mise en forme d'un formulaire */
+form {
+    margin-bottom: 2em;
+}
+.form{
+  margin-bottom: 2em;
+}
+input{
+  display: inline-block;
+  padding: 5px ;
+  background-color: white;
+  margin-bottom: 1em;
+}
+.boxed {
+  border: 5px solid #4682B4;
+  width: 70%;
+  padding: 20px;
+  margin-bottom: 2em;
+}
